@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OEEC.StringManipulador;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,18 +9,32 @@ namespace OEEC.Teperatura.UnitTest.AppxUnit
 {
     public class StringManipulador
     {
-        public string ReverseString(string input)
+        [Fact]
+        public void ReverseString_ShouldReverseInput()
         {
+            // Arrange
+            StringManipulator manipulator = new StringManipulator();
+            string input = "Hello";
 
-            char[] charArray = input.ToCharArray();
-            Array.Reverse(charArray);
-            return new string(charArray);
+            // Act
+            string result = manipulator.ReverseString(input);
+
+            // Assert
+            Assert.Equal("olleH", result);
         }
 
-        public string RemoveSpaces(string input)
+        [Fact]
+        public void RemoveSpaces_ShouldRemoveSpaces()
         {
-            return input.Replace(" ", "");
+            // Arrange
+            StringManipulator manipulator = new StringManipulator();
+            string input = "Hello World";
 
+            // Act
+            string result = manipulator.RemoveSpaces(input);
+
+            // Assert
+            Assert.Equal("HelloWorld", result);
         }
     }
 }

@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EJERCICIOTEMPERATURA\OEEC.Temperatura.csproj" />
+    <ProjectReference Include="..\OEEC.StringManipulador\OEEC.StringManipulador.csproj" />
   </ItemGroup>
 
 </Project>

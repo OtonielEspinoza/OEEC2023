@@ -6,7 +6,21 @@ using System.Threading.Tasks;
 
 namespace OEEC.StringManipulador
 {
-    internal class StringManipulator
+    public class StringManipulator
     {
+        public string ReverseString(string input)
+        {
+
+            char[] charArray = input.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
+        }
+
+        public string RemoveSpaces(string input)
+        {
+            return input.Replace(" ", "");
+
+        }
+
     }
 }
