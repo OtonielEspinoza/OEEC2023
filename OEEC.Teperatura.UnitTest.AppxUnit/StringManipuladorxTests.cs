@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OEEC.Teperatura.UnitTest.AppxUnit
+namespace OEEC.StringManipulador.UnitTest.AppxUnit
 {
     public class StringManipulador
     {

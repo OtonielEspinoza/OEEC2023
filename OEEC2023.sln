@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OEEC.Temperatura", "EJERCIC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OEEC.Temperatura.UnitTestMSTest", "OEEC.Temperatura.UnitTestMSTest\OEEC.Temperatura.UnitTestMSTest.csproj", "{40F51ECA-D1FC-4EEA-93EC-36FBB07B7842}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OEEC.Teperatura.UnitTest.AppxUnit", "OEEC.Teperatura.UnitTest.AppxUnit\OEEC.Teperatura.UnitTest.AppxUnit.csproj", "{697E29AF-61CF-43AB-9E12-45A370810C9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OEEC.StringManipulador.UnitTest.AppxUnit", "OEEC.Teperatura.UnitTest.AppxUnit\OEEC.StringManipulador.UnitTest.AppxUnit.csproj", "{697E29AF-61CF-43AB-9E12-45A370810C9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OEEC.StringManipulador", "OEEC.StringManipulador\OEEC.StringManipulador.csproj", "{E36E6132-DEA4-47D1-8B6D-0D2C4C5DEE28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OEEC.StringManipulador", "OEEC.StringManipulador\OEEC.StringManipulador.csproj", "{E36E6132-DEA4-47D1-8B6D-0D2C4C5DEE28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
